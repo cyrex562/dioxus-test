@@ -29,7 +29,10 @@ fn App(cx: Scope) -> Element {
                         button{
                             onclick: move |event| {
                         event.stop_propagation();
-                        }}
+
+                        }
+                        "import file"
+                        }
                     }
                 }
             }
